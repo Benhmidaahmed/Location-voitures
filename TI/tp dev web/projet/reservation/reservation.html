@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <video autoplay loop muted class="background-video">
+        <source src="vid.mp4" type="video/webm">
+        <source src="vid.mp4" type="video/ogg">
+    </video>
+    <header>
+        <h1>Réservation</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a href="../Acceuil/acceuil2.html">Acceuil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../page de vehicule/voiture.html">Nos véhicules</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../page de vehicule/voiture.html">Nos véhicules</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../service/service.html">Nos services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../politique/politique de reservation.html">Politique de reservation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../page de vehicule/tout voitures/voiture eco/les voitures eco.html">Réservation</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+    
+    <div class="row mt-4">
+        
+       
+         <aside class="col-md-8 col-12">
+            <article class="card">
+                <div class="card-body">
+                    <h2 class="card-title">Recherche</h2>
+                    <div class="form-group">
+                        <label for="searchNUM">Numéro de téléphone:</label>
+                        <input id="searchNUM" type="text" class="form-control" placeholder="Entrez le numéro">
+                    </div>
+                    <button type="button" class="btn btn-primary" onclick="rechercherContact()">Rechercher</button>
+                    <button type="button" class="btn btn-danger" onclick="effacerTousContacts()">Effacer tous</button>
+                    <p id="resultatRecherche" class="mt-0"></p>
+                </div>
+            </article>
+            <section class="">
+                <div id="contenu"></div>
+            </section>
+            
+        </aside>
+        
+        
+
+        <aside class="col-md-4">
+            <article class="card ">
+                <div class="card-body">
+                    <h1 class="card-title">Informations</h1>
+                    <form id="characterForm">
+                        <input type="hidden" id="characterId">
+                        <div class="form-group">
+                            <label for="nom">Nom:</label>
+                            <input id="nom" type="text" class="form-control" placeholder="Votre nom">
+                        </div>
+                        <div class="form-group">
+                            <label for="prenom">Prénom:</label>
+                            <input id="prenom" type="text" class="form-control" placeholder="Votre prénom">
+                        </div>
+                        <div class="form-group">
+                            <label for="NUM">Num :</label>
+                            <input id="NUM" type="text" class="form-control" placeholder="Num téléphone ">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input id="email" type="email" class="form-control" placeholder="Votre email">
+                        </div>
+                        <div class="form-group">
+                            <label for="typeVoiture">Type de voiture:</label>
+                            <input id="typeVoiture" type="text" class="form-control" placeholder="Type de voiture">
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="Poster()">Envoyer</button>
+                    </form>
+                    
+                    
+                </div>
+            </article>
+        </aside>
+       
+    </div>
+    
+    
+</div>
+<footer>
+    <section class="section3">
+        <article>
+            <a href="mailto:benhmidaa@gmail.com"><h1>Contactez-nous</h1></a>
+            <p>Pour toute question ou réservation, n'hésitez pas à nous contacter.</p>
+            <ul>
+                <li>Email: contact@locationvoiture.com</li>
+                <li>Téléphone: +21654986786</li>
+            </ul>
+        </article>
+    </section>
+</footer>
+
+<script src="monscript.js"></script>
+</body>
+</html>
