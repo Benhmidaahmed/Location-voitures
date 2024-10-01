@@ -1,0 +1,63 @@
+&<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Page de Réservation</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <video autoplay loop muted class="background-video">
+        <source src="vid.mp4" type="video/webm">
+        <source src="vid.mp4" type="video/ogg">
+    </video>
+    <div class="content">
+        <header>
+            <h1>Page de Réservation</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../Acceuil/acceuil2.html">Acceuil</a></li>
+                <li><a href="../page de vehicule/voiture.html">Nos véhicules</a></li>
+                <li><a href="../service/service.html">Nos services</a></li>
+                <li><a href="../politique/politique de reservation.html">Politique de reservation</a></li>
+                <li><a href="../page de vehicule/tout voitures/voiture eco/les voitures eco.html">Réservation</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="formulaire">
+        <form>
+            <label for="nom">Nom:</label>
+            <input type="text" id="nom" placeholder="Entrez votre nom">
+
+            <label for="prenom">Prénom:</label>
+            <input type="text" id="prenom" placeholder="Entrez votre prénom">
+
+            <label for="cin">Nombre de CIN:</label>
+            <input type="text" id="cin" placeholder="Entrez votre numéro de CIN">
+
+            <label>Genre:</label>
+            <div class="radio">
+                <label for="homme">Homme</label>
+            <input type="radio" name="genre" id="homme">
+            <label for="femme">Femme</label>
+            <input type="radio" name="genre" id="femme">
+            </div>
+
+            <label for="email">Donner votre Email:</label>
+            <input type="email" id="email" placeholder="Entrez votre adresse e-mail">
+
+            <label for="voiture">Choisir le type de voiture:</label>
+            <select id="voiture">
+                <option value="economique">Voiture économique</option>
+                <option value="luxe">Voitures de luxe</option>
+                <option value="vus">VUS spacieux</option>
+            </select>
+
+            <button type="submit">Envoyer</button>
+            <button type="reset">Effacer</button>
+        </form>
+    </div>
+</body>
+
+</html>

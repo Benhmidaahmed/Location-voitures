@@ -1,0 +1,178 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    
+}
+
+/* Header styles */
+.Header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    margin-left: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+ .h1:first-letter {
+   font-size: 150%; 
+   font-style: italic;
+   font-weight: bold;
+   color: white;
+    
+   }
+   nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: rgba(20, 16, 16, 0.8); 
+    padding: 20px;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: rgb(6, 20, 41);
+    background-color: white;
+}
+/* nav {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+  border: 1px solid white;
+  background-color:rgb(20, 20, 51);
+  padding: 20px;
+  
+}
+
+
+nav a{
+    color: white;
+    margin: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-left: 20px;
+    margin-right: 0%;
+    text-decoration: none;
+    justify-content: center;
+    padding: 10px;
+    
+    
+  }
+nav a:hover{
+color: rgb(6,20,41);
+background-color: white;
+
+} */
+
+button {
+    background: #4584ef;
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+/* Section 1 styles */
+.section1 {
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.section1 article {
+    flex: 1;
+    margin: 10px;
+    transition: transform 0.3s ;
+}
+
+.section1 article:hover {
+    transform: scale(1.05);
+}
+
+.section1 h1 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: rgb(73, 71, 71);
+}
+
+.section1 p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: rgb(102, 102, 102);
+}
+
+.section1 img {
+    width: 100%;
+    height: auto;
+}
+
+/* Section 2 styles */
+.section2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.section2 article {
+    flex: 1;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out;
+    background-color: rgb(231, 231, 231);
+    
+}
+
+.section2 article:hover {
+    transform: scale(1.05);
+}
+
+.section2 article img {
+    width: 100%;
+    height: auto;
+}
+
+.section2 article p {
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .Header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav {
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .section1 article,
+    .section2 article {
+        flex: 1 100%;
+        margin: 10px 0;
+    }
+}
