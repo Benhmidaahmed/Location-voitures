@@ -1,0 +1,85 @@
+idZoneSrc:0 idZoneDest:1 distance:4 Duree Approximative:0 jours 0 heures 4 minutes Nombre de subdivisions:3
+Subdivision 1: row=12 column=7 codeRue=3
+Subdivision 2: row=12 column=8 codeRue=9
+Subdivision 3: row=11 column=8 codeRue=12
+
+idZoneSrc:1 idZoneDest:3 distance:7 Duree Approximative:0 jours 0 heures 7 minutes Nombre de subdivisions:6
+Subdivision 1: row=10 column=7 codeRue=3
+Subdivision 2: row=10 column=6 codeRue=3
+Subdivision 3: row=10 column=5 codeRue=3
+Subdivision 4: row=10 column=4 codeRue=10
+Subdivision 5: row=9 column=4 codeRue=12
+Subdivision 6: row=8 column=4 codeRue=12
+
+idZoneSrc:3 idZoneDest:8 distance:13 Duree Approximative:0 jours 0 heures 12 minutes Nombre de subdivisions:12
+Subdivision 1: row=7 column=3 codeRue=3
+Subdivision 2: row=7 column=2 codeRue=6
+Subdivision 3: row=8 column=2 codeRue=12
+Subdivision 4: row=9 column=2 codeRue=12
+Subdivision 5: row=10 column=2 codeRue=12
+Subdivision 6: row=11 column=2 codeRue=12
+Subdivision 7: row=12 column=2 codeRue=12
+Subdivision 8: row=13 column=2 codeRue=12
+Subdivision 9: row=14 column=2 codeRue=12
+Subdivision 10: row=15 column=2 codeRue=12
+Subdivision 11: row=16 column=2 codeRue=12
+Subdivision 12: row=17 column=2 codeRue=12
+
+idZoneSrc:8 idZoneDest:7 distance:6 Duree Approximative:0 jours 0 heures 6 minutes Nombre de subdivisions:5
+Subdivision 1: row=18 column=3 codeRue=3
+Subdivision 2: row=18 column=4 codeRue=3
+Subdivision 3: row=18 column=5 codeRue=3
+Subdivision 4: row=18 column=6 codeRue=9
+Subdivision 5: row=17 column=6 codeRue=12
+
+idZoneSrc:7 idZoneDest:4 distance:11 Duree Approximative:0 jours 0 heures 11 minutes Nombre de subdivisions:10
+Subdivision 1: row=16 column=7 codeRue=3
+Subdivision 2: row=16 column=8 codeRue=3
+Subdivision 3: row=16 column=9 codeRue=3
+Subdivision 4: row=16 column=10 codeRue=3
+Subdivision 5: row=16 column=11 codeRue=3
+Subdivision 6: row=16 column=12 codeRue=3
+Subdivision 7: row=16 column=13 codeRue=3
+Subdivision 8: row=16 column=14 codeRue=9
+Subdivision 9: row=15 column=14 codeRue=12
+Subdivision 10: row=14 column=14 codeRue=12
+
+idZoneSrc:4 idZoneDest:2 distance:6 Duree Approximative:0 jours 0 heures 6 minutes Nombre de subdivisions:5
+Subdivision 1: row=12 column=14 codeRue=12
+Subdivision 2: row=11 column=14 codeRue=12
+Subdivision 3: row=10 column=14 codeRue=12
+Subdivision 4: row=9 column=14 codeRue=15
+Subdivision 5: row=8 column=14 codeRue=12
+
+idZoneSrc:2 idZoneDest:6 distance:4 Duree Approximative:0 jours 0 heures 4 minutes Nombre de subdivisions:3
+Subdivision 1: row=7 column=15 codeRue=3
+Subdivision 2: row=7 column=16 codeRue=5
+Subdivision 3: row=8 column=16 codeRue=12
+
+idZoneSrc:6 idZoneDest:5 distance:12 Duree Approximative:0 jours 0 heures 12 minutes Nombre de subdivisions:11
+Subdivision 1: row=9 column=15 codeRue=3
+Subdivision 2: row=9 column=14 codeRue=15
+Subdivision 3: row=9 column=13 codeRue=3
+Subdivision 4: row=9 column=12 codeRue=10
+Subdivision 5: row=8 column=12 codeRue=12
+Subdivision 6: row=7 column=12 codeRue=12
+Subdivision 7: row=6 column=12 codeRue=12
+Subdivision 8: row=5 column=12 codeRue=12
+Subdivision 9: row=4 column=12 codeRue=12
+Subdivision 10: row=3 column=12 codeRue=12
+Subdivision 11: row=2 column=12 codeRue=12
+
+idZoneSrc:5 idZoneDest:9 distance:13 Duree Approximative:0 jours 0 heures 13 minutes Nombre de subdivisions:12
+Subdivision 1: row=1 column=11 codeRue=3
+Subdivision 2: row=1 column=10 codeRue=3
+Subdivision 3: row=1 column=9 codeRue=3
+Subdivision 4: row=1 column=8 codeRue=3
+Subdivision 5: row=1 column=7 codeRue=3
+Subdivision 6: row=1 column=6 codeRue=3
+Subdivision 7: row=1 column=5 codeRue=3
+Subdivision 8: row=1 column=4 codeRue=3
+Subdivision 9: row=1 column=3 codeRue=3
+Subdivision 10: row=1 column=2 codeRue=3
+Subdivision 11: row=1 column=1 codeRue=6
+Subdivision 12: row=2 column=1 codeRue=12
+

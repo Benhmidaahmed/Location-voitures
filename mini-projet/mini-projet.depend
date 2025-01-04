@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1735998371 source:d:\bureau\mini-projet\code.c
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+
+1735998371 source:d:\bureau\mini-projet\main.cpp
+
